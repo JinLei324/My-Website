@@ -1,0 +1,835 @@
+{
+	"genericErrMsg": {
+		"200": "Success.",
+		"400": "Mandatory field's are missing.",
+		"401": "Your profile is not verified, please contact our support for further queries.",
+		"402": "Mandatory field's are missing.",
+		"404": "Something went wrong.please logout & try again.",
+		"440": "Your session has been expired. Please login again.",
+		"498": "Invalid Token.",
+		"500": "Internal server error.",
+		"501": "Implement  error."
+	},
+	"SMS": {
+		"200": "Your %s verification code is %s"
+	},
+	"bookingStatusMsg": {
+		"1": "You have received a new order( %s )!",
+		"2": "Cancel Order.",
+		"3": "Unfortunately your order has been canceled in whole or in part by the store (%s). You will receive the purchase amount back on your account within 5-10 working days.",
+		"4": "Your order has been accepted by the store and shall be ready soon..",
+		"5": "Order ready.",
+		"6": "Order picked.",
+		"7": "Order completed (Pickup).",
+		"8": "%s shall delivery your order shortly. You can contact him at %s %s or track him live on your %s application under “History” tab.",
+		"9": "Rejected by driver.",
+		"10": "Driver enroute to store..",
+		"11": "Driver is at the store.",
+		"12": "Driver picked up the order.",
+		"13": "Driver has reached the delivery location. ",
+		"14": "Delivered",
+		"15": "Order completed.",
+		"16": "Cancelled by customer.",
+		"17": "Cancelled by driver.",
+		"18": "The store is running late on its previous orders and your order will now be delivered at %s.",
+		"19": "central dispatch.",
+		"20": "Your order has been expired.",
+		"21": "Unassign.",
+		"25": "Order in Progress.",
+		"26": "Driver Arrived & Picked.",
+		"27": "Driver Arrived to laundromat",
+		"28": "Dropped to laundromat",
+		"40": "in Dispatch",
+		"8d": "The dispatcher assigned you a new order",
+		"16s": "Your order has been cancelled by %s.",
+		"2s": "Your order has been cancelled by %s.",
+		"17s": "Your order has been cancelled by %s.",
+		"16reson": "Your order has been cancelled by %s  due to %s.",
+		"2reson": "Your order has been cancelled by %s  due to %s.",
+		"17reson": "Your order has been cancelled by %s  due to %s.",
+		"sendBooking": "You have received a new order( %s )!",
+		"40s": "Waiting for the driver",
+		"newOrdercustomer": "Order placed successfully.",
+		"3s": "Rejected",
+		"4s": "Accepted",
+		"8s": "Accepted",
+		"9s": "Rejected",
+		"11s": "%s %s  has arrived to pickup order no: %s",
+		"updateCustomer": "Your order %s has been updated.",
+		"updateStore": "Your order has been updated, please login on the %s application to view your updated order details.",
+		"updateStoreUser": "Order #%s has been updated by one of the %s.",
+		"dispatchExpire": "sorry, all drivers are busy at that moment please try again after some times.",
+		"acceptExpire": "Sorry, you just lost an order because not respond the order"
+	},
+	"bookingStatusTitle": {
+		"1": "New Order.",
+		"2": "Cancel Order.",
+		"3": "Reject Order.",
+		"4": "Your order has been accepted by the store and shall be ready soon..",
+		"5": "Order ready.",
+		"6": "Order picked.",
+		"7": "Order completed (Pickup).",
+		"8": "Booking accepted by driver.",
+		"9": "Rejected by driver.",
+		"10": "Driver enroute to store..",
+		"11": "Driver is at the store.",
+		"12": "Driver picked up the order.",
+		"13": "Driver has reached the delivery location. ",
+		"14": "Delivered",
+		"15": "Order completed.",
+		"16": "Order Cancelled.",
+		"17": "Order Cancelled.",
+		"18": "The store is running late on its previous orders and your order will now be delivered at %s.",
+		"19": "central dispatch.",
+		"20": "Order expired.",
+		"21": "Unassign.",
+		"25": "in Progress.",
+		"26": "Driver Arrived & Picked.",
+		"27": "Driver Arrived to laundromat",
+		"28": "Dropped to laundromat",
+		"40": "in Dispatch",
+		"newOrdercustomer": "Order Placed.",
+		"11s": "Order PickUp",
+		"updateStore": "Order Updated"
+	},
+	"driverStatus": {
+		"statusText": "You have been logged out by our operations team, please login again to continue accessing your account.",
+		"statusTitle": "Logged out",
+		"offlineText": "Your availability status has been switched to offline by our operations team",
+		"offlineTitle": "Offline by operations team",
+		"sessionmsg": "Your session has expired, please login again to continue accessing your account.",
+		"sessiontitle": "Session Expired"
+	},
+	"walletSoftLimit": {
+		"33": "You are out of soft limit"
+	},
+	"estimateDelivery": {
+		"402": "Zone Mismatch",
+		"403": "City Mismatch, Cannot Deliver to different city."
+	},
+	"stripeCardPost": {
+		"200": "Card added successfully."
+	},
+	"stripeCardPatch": {
+		"200": "Card successfully added to default source.",
+		"400": "Card or user Not Found."
+	},
+	"stripeCardDelete": {
+		"200": "Card deleted successfully.",
+		"400": "Card or user Not Found."
+	},
+	"stripeConnectAccountGet": {
+		"400": "No stripe account, please create a new stripe account."
+	},
+	"stripeConnectAccountPost": {
+		"400": "No stripe account, please create a new stripe account."
+	},
+	"stripeExternalAccountPost": {
+		"400": "No stripe account, please create a new stripe account."
+	},
+	"stripeExternalAccountDelete": {
+		"200": "External account deleted successfully.",
+		"400": "External account or Connecy account Not Found."
+	},
+	"stripeExternalAccountPatch": {
+		"200": "External account successfully added to default source.",
+		"400": "External account or Connecy account Not Found."
+	},
+	"stripePlanPost": {
+		"200": "Plan added successfully."
+	},
+	"stripePlanPatch": {
+		"200": "Plan successfully updated.",
+		"400": "Plan Not Found."
+	},
+	"stripePlanDelete": {
+		"200": "Plan deleted successfully.",
+		"400": "Plan Not Found."
+	},
+	"stripeSubscribePost": {
+		"200": "Subscription added successfully.",
+		"208": "Already Subscribed to Same Plan.",
+		"400": "Customer Not Found.",
+		"401": "Cards Not Found.",
+		"402": "Plan Not Found."
+	},
+	"stripeSubscribeGet": {
+		"200": "Success.",
+		"400": "Customer Not Found.",
+		"401": "Subscription Not Found."
+	},
+	"stripeSubscribePatch": {
+		"200": "Subscription successfully updated.",
+		"400": "Customer Not Found.",
+		"401": "Cards Not Found.",
+		"402": "Plan Not Found."
+	},
+	"stripeSubscribeDelete": {
+		"200": "Subscription deleted successfully.",
+		"400": "Subscription Not Found.",
+		"401": "Customer Not Found."
+	},
+	"stripeTransaction": {
+		"customeNotFound": "Customer Not Found.",
+		"authoriseSuccess": "Charge created Successfully.",
+		"refundChargeSuccess": "charge cancel successfully.",
+		"captureChargeSuccess": "charge captured successfully.",
+		"chargeSuccess": "Charge Success.",
+		"accountNotFound": "Account Not Found.",
+		"transferSuccess": "Transfer Success."
+	},
+	"stripeErr": {
+		"rateLimit": "Too many requests made to the API.",
+		"invalidParams": "Invalid Parameters supplied.",
+		"apiErr": "An error occurred internally with Stripe's API.",
+		"connectionErr": "Some kind of error occurred during the HTTPS communication.",
+		"authErr": "You probably used an incorrect API key.",
+		"defaultErr": "Unexpected Error."
+	},
+	"apiDescription": {
+		"stripeCardPost": "This API allows user add new card on stripe.",
+		"stripeCardGet": "This API allows user get all added card.",
+		"stripeCardPatch": "This API allows user to change the default card.",
+		"stripeCardDelete": "This API allows user to delete added card.",
+		"stripeConnectAccountGet": "This API allows user to get stripe connect account details.",
+		"stripeConnectAccountPost": "This API allows user to create or update stripe connect account.",
+		"stripeExternalAccountPost": "This API allows user add new Bank on stripe.",
+		"stripeExternalAccountPatch": "This API allows user to change the default Bank.",
+		"stripeExternalAccountDelete": "This API allows user to delete added Bank.",
+		"stripePlanPost": "This API allows admin user to add new subscription plan on stripe.",
+		"stripePlanGet": "This API allows user get all added subscription plan.",
+		"stripePlanPatch": "This API allows admin user to modifyi plan details.",
+		"stripePlanDelete": "This API allows admin user to delete added plan.",
+		"stripeSubscribePost": "This API allows user to subscribe plan on stripe.",
+		"stripeSubscribeGet": "This API allows user get subscription details.",
+		"stripeSubscribePatch": "This API allows user to modifyi subscribe details.",
+		"stripeSubscribeDelete": "This API allows remove subscription on stripe."
+	},
+	"postSignUp": {
+		"200": "Success.",
+		"412": "This email address is already registered with us, please try a different email address.",
+		"413": "This phone number is already registered with us, please try a different number."
+	},
+	"getProfile": {
+		"200": "Success.",
+		"204": "User not found",
+		"404": "Data not found"
+	},
+	"getData": {
+		"200": "Success.",
+		"404": "Data not found",
+		"406": "store is close"
+	},
+	"appVersions": {
+		"200": "Success.",
+		"400": "Please update your app to the latest available version.",
+		"404": "Data not found"
+	},
+	"guestRegisterUser": {
+		"200": "Success.",
+		"400": "Bad request."
+	},
+	"getCityErrMsg": {
+		"200": "Success.",
+		"404": "No-city found"
+	},
+	"emails": {
+		"200": "Email sent successfully.",
+		"400": "No user found"
+	},
+	"postPhoneValidation": {
+		"200": "Success.",
+		"400": "Bad Request",
+		"404": "Not found",
+		"406": "mobile Number is Not valid",
+		"412": "This phone number is already registered with us, please try a different number.",
+		"413": "This email address is already registered with us, please try a different email address."
+	},
+	"postEmailValidation": {
+		"200": "Success.",
+		"412": "This Email address is already registered with us, Please try another."
+	},
+	"getServiceCategory": {
+		"200": "Got The Category Details.",
+		"404": "No Category found"
+	},
+	"postVerifyPhoneNumber": {
+		"200": "Thanks for signing up. One of our representatives will get in touch with you in the next 24 hours to setup your profile and get all the necessary documents.",
+		"410": "Invalid verification code, please try again"
+	},
+	"postSignIn": {
+		"200": "Login Successful.",
+		"400": "Phone Number or Email is Wrong.",
+		"401": "Incorrect password, please try again.",
+		"403": "Your profile has been rejected by our operations team. Please reach out to our support team for more information.",
+		"405": "Thanks for signing up. One of our representatives will get in touch with you in the next 24 hours to setup your profile and get all the necessary documents.",
+		"406": "Your profile has been banned by our operations team. Please reach out to our support team for more information."
+	},
+	"newAccount": {
+		"406": "Thanks for signing up. One of our representatives will get in touch with you in the next 24 hours to setup your profile and get all the necessary documents."
+	},
+	"bannedAccount": {
+		"406": "Your profile has been banned by our operations team. Please reach out to our support team for more information."
+	},
+	"deactivatedAccount": {
+		"406": "Your account has been de-activated. Please write to us on support@loopz.today forfurther details."
+	},
+	"rejectedAccount": {
+		"406": "Your profile has been rejected by our operations team. Please reach out to our support team for more information."
+	},
+	"patchProfile": {
+		"200": "Updated Successfully.",
+		"400": "Please check input field"
+	},
+	"patchStatus": {
+		"200": "Updated Successfully."
+	},
+	"patchLocation": {
+		"200": "Updated Successfully.."
+	},
+	"patchPassword": {
+		"200": "Updated Successfully..",
+		"401": "Incorrect Password."
+	},
+	"postResendOtp": {
+		"200": "Verification code has been sent to your registered mobile number",
+		"404": "Data not found.",
+		"429": "You have exhausted the quota for verification attempts, try again after 24 hours"
+	},
+	"slaveRegisterUser": {
+		"200": "Success",
+		"400": "Bad request"
+	},
+	"slaveVerifyPhoneNumber": {
+		"200": "Phone number is verified",
+		"400": "Verification code is wrong.",
+		"401": "This mobile number is already verified, Please try another.",
+		"404": "Data not found.",
+		"410": "Verification code has expired, please generate a new one by clicking on resend button.",
+		"429": "You have exhausted the quota for verification attempts, try again after 24 hours"
+	},
+	"slaveResendOtp": {
+		"200": "Verification code has been sent to your registered mobile number",
+		"404": "Data not found.",
+		"429": "You have exhausted the quota for verification attempts, try again after 24 hours"
+	},
+	"slaveEmailValidation": {
+		"200": "Success.",
+		"412": "This email address is already registered with us, Please try another.",
+		"413": "This email address is already registered with us, please try a different email address."
+	},
+	"slavePhoneValidation": {
+		"200": "Success.",
+		"400": "Bad Request",
+		"406": "Phone Number is Not valid",
+		"412": "This phone number is already registered with us, please try a different number."
+	},
+	"slavePassword": {
+		"200": "Updated Successfully..",
+		"401": "Wrong password! Try again or click forgot password to reset it."
+	},
+	"customerUpdatePassword": {
+		"200": "Updated Successfully..",
+		"401": "Code is not verified.",
+		"402": "You're unauthorized to change password.",
+		"440": "Invalid verification code, please try again"
+	},
+	"driverUpdatePassword": {
+		"200": "Updated Successfully..",
+		"401": "Code is not verified.",
+		"402": "You're unauthorized to change password.",
+		"440": "Invalid verification code, please try again"
+	},
+	"slaveProfile": {
+		"200": "Success.",
+		"404": "Not-Found."
+	},
+	"slaveUpdateProfile": {
+		"200": "Updated Successfully..",
+		"400": "Bad Request"
+	},
+	"slaveGetService": {
+		"200": "Updated Successfully..",
+		"400": "Bad Request"
+	},
+	"slaveSignIn": {
+		"200": "Login Successfully..",
+		"400": "Bad Request.",
+		"401": "Incorrect password, please try again.",
+		"402": "Mobile not verified",
+		"403": "Your profile has been rejected by our operations team. Please reach out to our support team for more information.",
+		"404": "User Not found",
+		"405": "Your account is not activated,Please active your account.",
+		"406": "Email id / Phone number is incorrect.",
+		"407": "Your profile has been banned by our operations team. Please reach out to our support team for more information.",
+		"415": "Your profile has been banned by our operations team. Please reach out to our support team for more information.",
+		"416": "Your profile has been deleted by our operations team. Please reach out to our support team for more information."
+	},
+	"storeManagerSignIn": {
+		"200": "Success",
+		"400": "Bad Request.",
+		"401": "Incorrect password, please try again.",
+		"402": "Mobile not verified",
+		"403": "Your account has been de-activated. Please write to us on support@loopz.today forfurther details.",
+		"404": "User Not found",
+		"405": "Your account is not activated,Please active your account.",
+		"406": "Email id / Phone number is incorrect.",
+		"407": "Your account is not activated,Please active your account."
+	},
+	"managerSignIn": {
+		"200": "Success",
+		"400": "Bad Request.",
+		"401": "Incorrect Password.",
+		"402": "Mobile not verified",
+		"403": "Your account has been de-activated. Please write to us on support@ufly.today forfurther details.",
+		"404": "User Not found",
+		"405": "Your account is not activated,Please active your account.",
+		"406": "Email id / Phone number is incorrect.",
+		"407": "Your account is not activated,Please active your account."
+	},
+	"ordersList": {
+		"200": "Success",
+		"400": "Bad Request."
+	},
+	"driverList": {
+		"200": "Success",
+		"400": "Bad Request."
+	},
+	"products": {
+		"200": "Success",
+		"400": "Bad Request.",
+		"404": "Product Not found"
+	},
+	"store": {
+		"200": "Success",
+		"400": "Bad Request.",
+		"404": "Product Not found"
+	},
+	"franchise": {
+		"200": "Success",
+		"400": "Bad Request.",
+		"404": "Product Not found"
+	},
+	"slaveGetProvider": {
+		"200": "Success.",
+		"404": "Not found"
+	},
+	"refreshToken": {
+		"200": "Success.",
+		"404": "Not found",
+		"477": "Your session has been expired. Please login again.",
+		"499": "Your session has been expired. Please login again."
+	},
+	"slaveLocation": {
+		"200": "Success."
+	},
+	"slaveGetProviderLoc": {
+		"200": "Success."
+	},
+	"supportConfig": {
+		"200": "Success.",
+		"404": "Not found"
+	},
+	"supportForgotPasswordE": {
+		"200": "Email with the reset link has been sent, please check your inbox."
+	},
+	"supportForgotPassword": {
+		"200": "Verification code has been sent to your registered mobile number",
+		"202": "Email with the reset link has been sent, please check your inbox.",
+		"400": "Bad Request",
+		"403": "This Email is not registered with us, Please try another.",
+		"404": "Not found",
+		"405": "Thanks for signing up. Thanks for signing up. One of our representatives will get in touch with you in the next 24 hours to setup your profile and get all the necessary documents.",
+		"406": "This mobile number is not registered with us, Please try another.",
+		"407": "This Email is not registered with us, Please try another.",
+		"429": "You have exhausted the quota for verification attempts, try again after 24 hours"
+	},
+	"supportResendOTP": {
+		"200": "Verification code sent.",
+		"404": "Data not found.",
+		"429": "You have exhausted the quota for verification attempts, try again after 24 hours"
+	},
+	"supportPassword": {
+		"200": "Your password has been successfully updated.",
+		"400": "Link Expired.",
+		"404": "Data not found."
+	},
+	"supportVerifyOTP": {
+		"200": "Verification success",
+		"400": "Bad Request",
+		"401": "This mobile number is already verified",
+		"405": "Verification code is wrong.",
+		"406": "Phone Number is wrong",
+		"407": "Verification code is wrong.",
+		"410": "Invalid verification code, please try again",
+		"429": "You have exhausted the quota for verification attempts, try again after 24 hours"
+	},
+	"supportLogOut": {
+		"200": "Successfully Logged Out.",
+		"204": "User not found."
+	},
+	"supportFAQ": {
+		"200": "Success."
+	},
+	"fare": {
+		"200": "Got The  Details.",
+		"400": "Looks like this Order Type is unavailable at this store. Please choose the %s Order Type."
+	},
+	"supportCancelReason": {
+		"200": "Got The  Details."
+	},
+	"supportAccessToken": {
+		"200": "Got The  Details.",
+		"404": "Data not found."
+	},
+	"supportReview": {
+		"200": "Got The  Details.",
+		"404": "Data not found."
+	},
+	"supportGetReview": {
+		"200": "Got The  Details.",
+		"404": "Review not found."
+	},
+	"supportPhone": {
+		"200": "Update Successfully.",
+		"404": "User not found."
+	},
+	"addAddress": {
+		"200": "Address Added Successfully."
+	},
+	"editAddress": {
+		"200": "Address Updated Successfully."
+	},
+	"getAddress": {
+		"200": "Success."
+	},
+	"removeAddress": {
+		"200": "Address Deleted Successfully."
+	},
+	"referalCode": {
+		"200": "Referral code is valid",
+		"400": "Invalid referral code"
+	},
+	"disLogin": {
+		"200": "Login Successfully",
+		"401": "Incorrect password, please try again.",
+		"404": "User Not found"
+	},
+	"disProvider": {
+		"200": "Got Provider List"
+	},
+	"createBooking": {
+		"200": "Booking Create Successfully"
+	},
+	"ackBooking": {
+		"200": "Booking Update Successfully",
+		"404": "Booking Not found"
+	},
+	"responseBooking": {
+		"200": "Booking Update Successfully",
+		"404": "Booking Not found"
+	},
+	"statusBooking": {
+		"200": "Booking Update Successfully",
+		"400": "Booking status not update",
+		"404": "Booking Not found"
+	},
+	"getMasterBooking": {
+		"200": "Get All Booking Details"
+	},
+	"historyMasterBooking": {
+		"200": "Get All Booking Details"
+	},
+	"getSlaveBooking": {
+		"200": "Get All Booking Details"
+	},
+	"getSlaveOneBooking": {
+		"200": "Get All Booking Details",
+		"404": "Booking Not found"
+	},
+	"cancelBookingSlave": {
+		"200": " Booking Cancel Successfully",
+		"404": "Booking Not found"
+	},
+	"timerBooking": {
+		"200": {
+			"0": "Timer is start"
+		},
+		"400": {
+			"0": "Timer is already start"
+		},
+		"404": "Booking Not found"
+	},
+	"cancelBookingMaster": {
+		"200": " Booking Cancel Successfully",
+		"404": "Booking Not found"
+	},
+	"stripeAddCard": {
+		"200": "Added Successfully.",
+		"404": "User Not Found"
+	},
+	"stripeGetCard": {
+		"200": "Added Successfully.",
+		"404": "User Not Found"
+	},
+	"stripeDeleteCard": {
+		"200": "Get card details.",
+		"402": "Card Not Found",
+		"404": "User Not Found"
+	},
+	"stripeDefualtCard": {
+		"200": "Get card details.",
+		"404": "User Not Found"
+	},
+	"stripeAddBank": {
+		"200": "Added Successfully.",
+		"404": "User Not Found"
+	},
+	"stripeGetBank": {
+		"200": "Added Successfully.",
+		"404": "User Not Found"
+	},
+	"stripeDeleteBank": {
+		"200": "Delete Bank details.",
+		"400": "Cannot delete default account. Please make another account default & then delete this account.",
+		"404": "No such account"
+	},
+	"stripeDefualtBank": {
+		"200": "Delete Bank details.",
+		"400": "Cannot delete default account. Please make another account default & then delete this account.",
+		"404": "No such account"
+	},
+	"checkOperationZone": {
+		"200": "In operational zone.",
+		"400": "Sorry , we do not deliver to your selected address at this moment as it’s out of delivery reach.",
+		"404": "No such account"
+	},
+	"appVersionAlreadyExist": {
+		"400": "App version with this type already exists, please select a new type."
+	},
+	"stores": {
+		"200": "Success.",
+		"201": "Success",
+		"404": "Data not found"
+	},
+	"orders": {
+		"200": "Order placed successfully.",
+		"201": "Passenger has cancelled Booking.",
+		"301": "Booking is already completed.",
+		"302": "Booking status Updated already..",
+		"303": "Booking Expired or Accepted By another",
+		"400": "driver not found",
+		"402": "Cart shouldn't be empty",
+		"404": "Order not found"
+	},
+	"bookings": {
+		"200": "Updated successfully.",
+		"201": "Booking cancelled.",
+		"301": "Booking is already completed.",
+		"302": "Booking status Updated already..",
+		"303": "Booking Expired or Accepted By another",
+		"400": "driver not found",
+		"403": "Order already cancelled",
+		"404": "Bookings not found on selected date",
+		"405": "This is last item of order if you cancle this item it will result in canclelation of the entire order.would you like to procced?"
+	},
+	"assignedOrders": {
+		"200": "Updated successfully."
+	},
+	"cart": {
+		"200": "Success.",
+		"201": "Added Successfully to cart.",
+		"202": "Removed Successfully from cart.",
+		"203": "Updated Successfully to cart.",
+		"401": "%s is not currently accepting orders.",
+		"404": "Data not found",
+		"412": "Item already in cart."
+	},
+	"checkout": {
+		"200": "Success.",
+		"201": "Added Successfully to cart.",
+		"202": "Removed Successfully from cart.",
+		"203": "Some of the items are modified inside the cart.",
+		"404": "Data not found",
+		"412": "Item already in cart."
+	},
+	"shoppingList": {
+		"200": "Success.",
+		"201": "Added Successfully to shoppingList.",
+		"202": "Removed Successfully from shoppingList.",
+		"203": "Updated Successfully to shoppingList.",
+		"404": "Data not found",
+		"412": "Item already in shoppingList."
+	},
+	"storeList": {
+		"200": "Success.",
+		"201": "Added Successfully to storeList.",
+		"202": "Removed Successfully from storeList.",
+		"203": "Updated Successfully to storeList.",
+		"404": "Data not found",
+		"412": "Store already in storeList."
+	},
+	"wishList": {
+		"200": "Success.",
+		"201": "Added Successfully to wishList.",
+		"202": "Removed Successfully from wishList.",
+		"203": "Updated Successfully.",
+		"404": "Data not found",
+		"412": "Item already in wishList."
+	},
+	"PostProduct": {
+		"201": "Product Added successfully."
+	},
+	"GetProduct": {
+		"200": "Product found successfully.",
+		"412": "Product does not exist."
+	},
+	"vehicles": {
+		"200": "Added Successfully.",
+		"400": "Vehicle type Not Found",
+		"401": "Vehicle type Not Found",
+		"404": "Vehicle Not Found"
+	},
+	"verifyId": {
+		"401": "Your Identity card is unverified.",
+		"402": "Your MMJ card is unverified."
+	},
+	"customer": {
+		"200": "Success",
+		"404": "Data not found"
+	},
+	"promoCampaigns": {
+		"200": "Success",
+		"400": "No promocodes found",
+		"401": "No details found",
+		"404": "Data not found"
+	},
+	"promoCode": {
+		"200": "Coupon code added successfully",
+		"400": "No promocodes found",
+		"401": "No details found",
+		"404": "Data not found"
+	},
+	"signIn": {
+		"405": "Your account is deleted, please contact our support for further queries."
+	},
+	"postBookingAck": {
+		"200": "Success",
+		"400": "Booking has been expired.",
+		"404": "Booking Not Found."
+	},
+	"fareMsg": {
+		"200": "Got The  Details.",
+		"400": "The following store is not deliverable for your location."
+	},
+	"storeSignUp": {
+		"200": "Successful signup."
+	},
+	"messages": {
+		"sessionMsgPushBody": "Your session has expired, please login again to continue accessing your account.",
+		"sessionMsgPushTitle": "Session Expired",
+		"ban": "Your profile got banned by our admin, please contact our support for further queries.",
+		"reject": "Your profile got rejected by our admin, please contact our support for further queries.",
+		"new": "One of our representatives will get in touch with you in the next 24 hours to setup your profile and get all the necessary documents.",
+		"loggedOut": "You have been logged out by our operations team, please login again to continue accessing your account."
+	},
+	"getAppConfig": {
+		"200": "success",
+		"402": "Invalid Device Type",
+		"404": "account not found"
+	},
+	"getZoneErrMsg": {
+		"200": "Success.",
+		"404": "No-city found"
+	},
+	"postStatus": {
+		"200": "success."
+	},
+	"postStatusRide": {
+		"200": "Success",
+		"400": "Invalid Status can't update.",
+		"401": "Invalid Location.",
+		"402": "Unable to calculate distance.",
+		"404": "Booking has been cancelled or completed."
+	},
+	"postRespondTo": {
+		"200": "Success",
+		"400": "Booking has been cancelled or accepted by other driver.",
+		"404": "Booking Not Found.",
+		"405": "Driver Data Not Found.",
+		"406": "Booking Respond Status Not Found.",
+		"407": "Vehicle Data Status Not Found."
+	},
+	"logs": {
+		"200": "New log posted successfully"
+	},
+	"promo": {
+		"200": "Promo added successfully"
+	},
+	"Success.": "Success.",
+	"vouchers": {
+		"200": "You have successfully redeemed an amount of",
+		"400": "Invalid Status can't update.",
+		"401": "Invalid Location.",
+		"402": "Unable to calculate distance.",
+		"404": "Voucher Expired."
+	},
+	"inventoryCheck": {
+		"400": "Item out of stock.",
+		"403": "Some of the items in your cart are out of stock."
+	},
+	"customerAddressPost": "customerAddressPost",
+	"adminPostSignIn": {
+		"404": "admin profile not found"
+	},
+	"inventoryStock": {
+		"400": "Onmogelijk om meer te bezorgen dan de beschikbare voorraad."
+	},
+	"wallet": {
+		"title": "%s Wallet",
+		"outOfSoft": "Your wallet balance is now out of Soft Limit",
+		"outOfHard": "Your wallet balance is now below the Hard Limit.",
+		"softHit": "Your wallet balance has hit the Soft Limit.",
+		"hardHit": "Your wallet balance has hit the Hard Limit.",
+		"walletTransaction": "Your wallet has been %s with an amount of %s. Your Wallet Balance is now %s.",
+		"credited": "credited",
+		"debited": "debited",
+		"credit for collectioned": "credit for collection",
+		"paymented": "debited",
+		"walletEnabed": "Wallet Enabled",
+		"walletDisabled": "Wallet Disabled",
+		"app earninged": "App Earnings",
+		"rechargeWallet": "%s Recharge Wallet"
+	},
+	"Waiting for the driver": "Waiting for the driver",
+	"New Order.": "New Order.",
+	"Your order has been accepted by the store and shall be ready soon..": "Your order has been accepted by the store and shall be ready soon..",
+	"Order placed successfully.": "Order placed successfully.",
+	"Order Placed.": "Order Placed.",
+	"Your session has expired, please login again to continue accessing your account.": "Your session has expired, please login again to continue accessing your account.",
+	"Session Expired": "Session Expired",
+	"Sorry, you just lost an order because not respond the order": "Sorry, you just lost an order because not respond the order",
+	"Your order has been expired.": "Your order has been expired.",
+	"sorry, all drivers are busy at that moment please try again after some times.": "sorry, all drivers are busy at that moment please try again after some times.",
+	"Driver picked up the order.": "Driver picked up the order.",
+	"Driver has reached the delivery location. ": "Driver has reached the delivery location. ",
+	"Driver is at the store.": "Driver is at the store.",
+	"%s %s  has arrived to pickup order no: %s": "%s %s  has arrived to pickup order no: %s",
+	"Order PickUp": "Order PickUp",
+	"Delivered": "Delivered",
+	"Order completed.": "Order completed.",
+	"Driver enroute to store..": "Driver enroute to store..",
+	"%s Wallet": "%s Wallet",
+	"Your wallet has been %s with an amount of %s. Your Wallet Balance is now %s.": "Your wallet has been %s with an amount of %s. Your Wallet Balance is now %s.",
+	"Booking accepted by driver.": "Booking accepted by driver.",
+	"%s shall delivery your order shortly. You can contact him at %s %s or track him live on your %s application under “History” tab.": "%s shall delivery your order shortly. You can contact him at %s %s or track him live on your %s application under “History” tab.",
+	"You have received a new order( %s )!": "You have received a new order( %s )!",
+	"Your order has been cancelled by %s  due to %s.": "Your order has been cancelled by %s  due to %s.",
+	"Order Cancelled.": "Order Cancelled.",
+	"Cancelled by customer.": "Cancelled by customer.",
+	"in Dispatch": "in Dispatch",
+	"Your %s verification code is %s": "Your %s verification code is %s",
+	"The dispatcher assigned you a new order": "The dispatcher assigned you a new order",
+	"Reject Order.": "Reject Order.",
+	"Unfortunately your order has been canceled in whole or in part by the store (%s). You will receive the purchase amount back on your account within 5-10 working days.": "Unfortunately your order has been canceled in whole or in part by the store (%s). You will receive the purchase amount back on your account within 5-10 working days."
+}

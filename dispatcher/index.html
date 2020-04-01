@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trolley</title>
+    <!-- <title>Dispatcher</title> -->
+    <link rel="icon" href="assets/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.0.3/css/intlTelInput.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/2.2.1/flatpickr.min.css" rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css" />
+    <link href="/assets/vendors/ng2-toastr.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel='stylesheet prefetch' href='https://api.tiles.mapbox.com/mapbox.js/v3.1.1/mapbox.css'>
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs/0.5.3/fingerprint.js"></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/MarkerCluster.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/leaflet.markercluster.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/MarkerCluster.Default.css' rel='stylesheet' />
+
+</head>
+
+<body style="overflow:hidden">
+    <app-root></app-root>
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.min.js'></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/js/bootstrap-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="/assets/vendors/ng2-toastr.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzg5o5MCUIo8t76ilb3gn5xarw-RwQVpI&libraries=places,geometry"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs/0.5.3/fingerprint.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.0.3/js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/2.2.1/flatpickr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+
+   
+   
+    <style>
+        a {
+            cursor: pointer;
+        }
+        
+        .gmnoprint {
+            right: 0px !important;
+        }
+        
+        .pac-container {
+            background-color: #FFF;
+            z-index: 20001 !important;
+            position: fixed;
+            display: inline-block;
+            float: left;
+        }
+        
+        button.marginLeft {
+            margin-left: 10px;
+        }
+        
+        .modal-backdrop {
+            z-index: 100 !important;
+        }
+        
+        .flatpickr-day.selected,
+        .flatpickr-day.selected:focus,
+        .flatpickr-day.selected:hover,
+        .flatpickr-day.selected.prevMonthDay,
+        .flatpickr-day.selected.nextMonthDay {
+            background: #359e99;
+            color: #fff;
+            border-color: #359e99;
+        }
+        
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            opacity: 1;
+        }
+        
+        .mat-form-field-ripple {
+            background-color: #369792 !important;
+        }
+        
+        .mat-checkbox-checked.mat-accent .mat-checkbox-background {
+            border-color: #4E4D4D;
+        }
+        
+        .mat-checkbox-checked.mat-accent .mat-checkbox-background {
+            background-color: #4E4D4D;
+        }
+        
+        .mat-checkbox-layout {
+            padding-left: 0px !important;
+        }
+        
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+        }
+        
+        .category-select-option {
+            padding: 5px 10px;
+        }
+        
+        .dropdown-menu>.active>a,
+        .dropdown-menu>.active>a:focus,
+        .dropdown-menu>.active>a:hover {
+            color: #fff;
+            text-decoration: none;
+            background-color: #359e99;
+            outline: 0;
+        }
+        
+        .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+            width: 220px;
+        }
+        
+        .service .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+            width: 180px !important;
+        }
+        
+        .service .bootstrap-select.btn-group .dropdown-menu {
+            min-width: 100%;
+            z-index: 20000 !important;
+        }
+        
+        .service .dropdown-menu {
+            bottom: 100% !important;
+            top: unset !important;
+        }
+        
+        .mat-form-field.mat-focused.mat-primary .mat-select-arrow,
+        .mat-form-field.mat-focused.mat-primary .mat-form-field-placeholder {
+            color: #369792;
+        }
+        
+        .mat-step-header .mat-step-icon {
+            background-color: #369792;
+            color: rgba(255, 255, 255, .87);
+        }
+        
+        .mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+            color: #369792;
+        }
+        
+        .mat-select-panel {
+            border-radius: 4px;
+        }
+        
+        mat-progress-bar.my-color .mat-progress-bar-fill::after {
+            background-color: #369792;
+        }
+        
+        .mat-progress-bar-fill::after {
+            background-color: #369792;
+        }
+        
+        .closeModal .mat-button {
+            background: #369792;
+        }
+        
+        .mat-progress-bar-buffer {
+            background-color: #e1faf9;
+        }
+        
+        .mat-form-field-type-mat-select .mat-form-field-infix {
+            width: 260px;
+        }
+        
+        .mar-rgt-10 {
+            margin-left: 10px;
+        }
+        
+        .width-140 {
+            width: 140px;
+        }
+        
+        .semiSelector .mat-form-field-type-mat-select .mat-form-field-infix {
+            width: 85px;
+        }
+        
+        .jobBill .tab-pane .mat-form-field-type-mat-select .mat-form-field-infix {
+            width: 140px;
+        }
+        
+        .optionSlect .btn-default {
+            padding: 5px 15px !important;
+            font-size: 12px !important;
+        }
+        
+        .selectionArea .btn {
+            width: 120px;
+        }
+        
+        .mat-cell {
+            font-size: 12.5px !important;
+        }
+        
+        .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+            width: 100%;
+        }
+        
+        .mat-select-panel {}
+        
+        .mat-select-panel::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            background-color: #F5F5F5;
+        }
+        
+        .mat-select-panel::-webkit-scrollbar {
+            width: 5px;
+            background-color: #F5F5F5;
+        }
+        
+        .mat-select-panel::-webkit-scrollbar-thumb {
+            background-color: #21d6cd;
+            border: 1px solid #35cfc8;
+        }
+        
+        .mat-tab-group.mat-primary .mat-ink-bar,
+        .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+            background-color: #359e99;
+        }
+        
+        .mat-cell {
+            padding: 5px;
+            font-size: 11px !important;
+        }
+        
+        .modal {
+            padding-left: 0px !important;
+        }
+        
+        .mat-form-field-type-mat-select .mat-form-field-infix {
+            width: 260px;
+        }
+        
+        button:disabled {
+            cursor: not-allowed;
+        }
+        
+        .mat-form-field {
+            font-size: 12px;
+        }
+        
+        .material-icons {
+            font-size: 18px;
+        }
+        
+        .matsub {
+            width: 90%;
+        }
+        
+        .mat-form-field {
+            font-size: 12px;
+        }
+        
+        .mat-form-field {
+            display: inline-block;
+            position: relative;
+            text-align: left;
+        }
+        
+        .jobBill .mat-tab-label {
+            min-width: 33.33%;
+            padding: 0 5px;
+            height: 40px;
+        }
+        
+        .fullWidth .mat-form-field-type-mat-select .mat-form-field-infix {
+            width: 200px !important;
+        }
+    </style>
+
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+
+</html>

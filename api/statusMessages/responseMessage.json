@@ -1,0 +1,1066 @@
+{
+    "guestRegisterUser": {
+        "400": {
+            "0": "Bad request."
+        },
+        "200": {
+            "0": "Success."
+        }
+    },
+    "genericErrMsg": {
+        "500": {
+            "0": "Internal server error."
+        },
+        "404": {
+            "0": "Something went wrong.please logout & try again.."
+        },
+        "440": {
+            "0": "Token Expire."
+        },
+        "400": {
+            "0": "Mandatory field's are missing."
+        },
+        "402": {
+            "0": "Mandatory field's are missing."
+        },
+        "498": {
+            "0": "Invalid Token."
+        },
+        "401": {
+            "0": "Your profile is not verified, please contact our support for further queries."
+        }
+    },
+    "getCityErrMsg": {
+        "200": {
+            "0": "Got The Details."
+        },
+        "404": {
+            "0": "No-city found"
+        }
+    },
+    "emails": {
+        "200": {
+            "0": "Email sent successfully."
+        },
+        "400": {
+            "0": "No user found"
+        }
+    },
+    "postPhoneValidation": {
+        "200": {
+            "0": "Got The Details."
+        },
+        "412": {
+            "0": "The mobile number is already registered with us, please try a different number."
+        },
+        "413": {
+            "0": "The Email address is already registered with us, please try a different email."
+        },
+        "406": {
+            "0": "mobile Number is Not valid"
+        },
+        "400": {
+            "0": "Bad Request"
+        },
+        "404": {
+            "0": "Not found"
+        }
+    },
+    "postEmailValidation": {
+        "200": {
+            "0": "Got The Details."
+        },
+        "412": {
+            "0": "The Email address is already registered with us, please try a different email."
+        }
+    },
+    "getServiceCategory": {
+        "200": {
+            "0": "Got The Category Details."
+        },
+        "404": {
+            "0": "No Category found"
+        }
+    },
+    "postSignUp": {
+        "200": {
+            "0": "Success."
+        },
+        "412": {
+            "0": "The Email address is already registered with us, please try a different email."
+        },
+        "413": {
+            "0": "The mobile number is already registered with us, please try a different number."
+        }
+    },
+    "postVerifyPhoneNumber": {
+        "200": {
+            "0": "One of our representatives will get in touch with you in the next 24 hours to setup your profile and get all the necessary documents."
+        },
+        "410": {
+            "0": "otp is expired"
+        }
+    },
+    "postSignIn": {
+        "200": {
+            "0": "Login Successful."
+        },
+        "400": {
+            "0": "Phone Number or Email is Wrong."
+        },
+        "401": {
+            "0": "Incorrect password, please try again."
+        },
+        "405": {
+            "0": "One of our representatives will get in touch with you in the next 24 hours to setup your profile and get all the necessary documents."
+        },
+        "403": {
+            "0": "Your profile has been rejected by our operations team. Please reach out to our support team for more information."
+        },
+        "406": {
+            "0": "Your profile has been banned by our operations team. Please reach out to our support team for more information."
+        }
+    },
+    "newAccount": {
+        "406": {
+            "0": "One of our representatives will get in touch with you in the next 24 hours to setup your profile and get all the necessary documents."
+        }
+    },
+    "bannedAccount": {
+        "406": {
+            "0": "Your profile has been banned by our operations team. Please reach out to our support team for more information."
+        }
+    },
+    "deactivatedAccount": {
+        "406": {
+            "0": "Your account has been de-activated. Please write to us on support@loopz.today forfurther details."
+        }
+    },
+    "rejectedAccount": {
+        "406": {
+            "0": "Your profile has been rejected by our operations team. Please reach out to our support team for more information."
+        }
+    },
+    "getProfile": {
+        "200": {
+            "0": "Got The Details."
+        },
+        "404": {
+            "0": "Data not found"
+        },
+        "204": {
+            "0": "User not found"
+        }
+    },
+    "patchProfile": {
+        "200": {
+            "0": "Updated Successfully.."
+        },
+        "400": {
+            "0": "Please check input field"
+        }
+    },
+    "patchStatus": {
+        "200": {
+            "0": "Updated Successfully.."
+        }
+    },
+    "patchLocation": {
+        "200": {
+            "0": "Updated Successfully.."
+        }
+    },
+    "patchPassword": {
+        "200": {
+            "0": "Updated Successfully.."
+        },
+        "401": {
+            "0": "Incorrect Password."
+        }
+    },
+    "postResendOtp": {
+        "200": {
+            "0": "Verification code has been sent to your registered mobile number"
+        },
+        "404": {
+            "0": "Data not found."
+        },
+        "429": {
+            "0": "Too Many Attempt Please Try After 24 hours."
+        }
+    },
+    "slaveRegisterUser": {
+        "200": {
+            "0": "Success"
+        },
+        "400": {
+            "0": "Bad request"
+        }
+    },
+    "slaveVerifyPhoneNumber": {
+        "200": {
+            "0": "Phone number is verified"
+        },
+        "404": {
+            "0": "Data not found."
+        },
+        "401": {
+            "0": "The mobile number is already registered with us, please try a different number."
+        },
+        "410": {
+            "0": "otp is expired"
+        },
+        "400": {
+            "0": "Verification code is wrong."
+        },
+        "429": {
+            "0": "Too Many Attempt Please Try After 24 hours."
+        }
+    },
+    "slaveResendOtp": {
+        "200": {
+            "0": "Verification code has been sent to your registered mobile number"
+        },
+        "404": {
+            "0": "Data not found."
+        },
+        "429": {
+            "0": "Too Many Attempt Please Try After 24 hours."
+        }
+    },
+    "slaveEmailValidation": {
+        "200": {
+            "0": "Got The Details."
+        },
+        "412": {
+            "0": "The Email address is already registered with us, please try a different email."
+        },
+        "413": {
+            "0": "The Email address is already registered with us, please try a different email."
+        }
+    },
+    "slavePhoneValidation": {
+        "200": {
+            "0": "Got The Details."
+        },
+        "412": {
+            "0": "The mobile number is already registered with us, please try a different number."
+        },
+        "406": {
+            "0": "Phone Number is Not valid"
+        },
+        "400": {
+            "0": "Bad Request"
+        }
+    },
+    "slavePassword": {
+        "200": {
+            "0": "Updated Successfully.."
+        },
+        "401": {
+            "0": "Wrong password! Try again or click forgot password to reset it."
+        }
+    },
+    "customerUpdatePassword": {
+        "200": {
+            "0": "Updated Successfully.."
+        },
+        "401": {
+            "0": "Code is not verified."
+        },
+        "402": {
+            "0": "You're unauthorized to change password."
+        },
+        "440": {
+            "0": "Invalid otp."
+        }
+    },
+    "driverUpdatePassword": {
+        "200": {
+            "0": "Updated Successfully.."
+        },
+        "401": {
+            "0": "Code is not verified."
+        },
+        "402": {
+            "0": "You're unauthorized to change password."
+        },
+        "440": {
+            "0": "Invalid otp."
+        }
+    },
+    "slaveProfile": {
+        "200": {
+            "0": "Got The Details."
+        },
+        "404": {
+            "0": "Not-Found."
+        }
+    },
+    "slaveUpdateProfile": {
+        "200": {
+            "0": "Updated Successfully.."
+        },
+        "400": {
+            "0": "Bad Request"
+        }
+    },
+    "slaveGetService": {
+        "200": {
+            "0": "Updated Successfully.."
+        },
+        "400": {
+            "0": "Bad Request"
+        }
+    },
+    "slaveSignIn": {
+        "200": {
+            "0": "Login Successfully.."
+        },
+        "400": {
+            "0": "Bad Request."
+        },
+        "401": {
+            "0": "Incorrect password, please try again."
+        },
+        "404": {
+            "0": "User Not found"
+        },
+        "402": {
+            "0": "Mobile not verified"
+        },
+        "403": {
+            "0": "Your profile has been rejected by our operations team. Please reach out to our support team for more information."
+        },
+        "406": {
+            "0": "Email id / Phone number is incorrect."
+        },
+        "407": {
+            "0": "Your profile has been banned by our operations team. Please reach out to our support team for more information."
+        },
+        "415": {
+            "0": "Your profile has been banned by our operations team. Please reach out to our support team for more information."
+        },
+        "405": {
+            "0": "Your account is not activated,Please active your account."
+        }
+    },
+    "managerSignIn": {
+        "200": {
+            "0": "Login Successfully.."
+        },
+        "400": {
+            "0": "Bad Request."
+        },
+        "401": {
+            "0": "Incorrect Password."
+        },
+        "404": {
+            "0": "User Not found"
+        },
+        "402": {
+            "0": "Mobile not verified"
+        },
+        "403": {
+            "0": "Your account has been de-activated. Please write to us on support@ufly.today forfurther details."
+        },
+        "406": {
+            "0": "Email id / Phone number is incorrect."
+        },
+        "407": {
+            "0": "Your account is not activated,Please active your account."
+        },
+        "405": {
+            "0": "Your account is not activated,Please active your account."
+        }
+    },
+    "ordersList": {
+        "200": {
+            "0": "Successfully.."
+        },
+        "400": {
+            "0": "Bad Request."
+        }
+    },
+    "storeManagerSignIn": {
+        "200": {
+            "0": "Login Successfully.."
+        },
+        "400": {
+            "0": "Bad Request."
+        },
+        "401": {
+            "0": "Incorrect password, please try again."
+        },
+        "404": {
+            "0": "User Not found"
+        },
+        "402": {
+            "0": "Mobile not verified"
+        },
+        "403": {
+            "0": "Your account has been de-activated. Please write to us on support@loopz.today forfurther details."
+        },
+        "406": {
+            "0": "Email id / Phone number is incorrect."
+        },
+        "407": {
+            "0": "Your account is not activated,Please active your account."
+        },
+        "405": {
+            "0": "Your account is not activated,Please active your account."
+        }
+    },
+    "slaveGetProvider": {
+        "200": {
+            "0": "Got The Details."
+        },
+        "404": {
+            "0": "Not found"
+        }
+    },
+    "refreshToken": {
+        "200": {
+            "0": "Got The Details."
+        },
+        "499": {
+            "0": "Expired jwt."
+        },
+        "477": {
+            "0": "Invalid jwt."
+        },
+        "404": {
+            "0": "Not found"
+        }
+    },
+    "slaveLocation": {
+        "200": {
+            "0": "Got The Details."
+        }
+    },
+    "slaveGetProviderLoc": {
+        "200": {
+            "0": "Got The Details."
+        }
+    },
+    "supportConfig": {
+        "200": {
+            "0": "Got The Details."
+        },
+        "404": {
+            "0": "Not found"
+        }
+    },
+    "supportForgotPasswordE": {
+        "200": {
+            "0": "Email has been sent. please verify."
+        }
+    },
+    "supportForgotPassword": {
+        "200": {
+            "0": "Verification code has been sent to your registered mobile number"
+        },
+        "202": {
+            "0": "Email has been sent. please verify."
+        },
+        "400": {
+            "0": "Bad Request"
+        },
+        "404": {
+            "0": "Not found"
+        },
+        "403": {
+            "0": "This Email is not registered with us, Please try another."
+        },
+        "405": {
+            "0": "One of our representatives will get in touch with you in the next 24 hours to setup your profile and get all the necessary documents."
+        },
+        "406": {
+            "0": "This mobile number is not registered with us, Please try another."
+        },
+        "407": {
+            "0": "This Email is not registered with us, Please try another."
+        },
+        "429": {
+            "0": "Too Many Attempt Please Try After 24 hours."
+        }
+    },
+    "supportResendOTP": {
+        "200": {
+            "0": "Verification code sent."
+        },
+        "404": {
+            "0": "Data not found."
+        },
+        "429": {
+            "0": "Too Many Attempt Please Try After 24 hours."
+        }
+    },
+    "supportPassword": {
+        "200": {
+            "0": "Password Updated Successfully."
+        },
+        "404": {
+            "0": "Data not found."
+        },
+        "400": {
+            "0": "Link Expired."
+        }
+    },
+    "supportVerifyOTP": {
+        "200": {
+            "0": "Verification success"
+        },
+        "400": {
+            "0": "Bad Request"
+        },
+        "401": {
+            "0": "This mobile number is already verified"
+        },
+        "406": {
+            "0": "Phone Number is wrong"
+        },
+        "407": {
+            "0": "Verification code is wrong."
+        },
+        "405": {
+            "0": "Verification code is wrong."
+        },
+        "410": {
+            "0": "otp is expired"
+        },
+        "429": {
+            "0": "Too Many Attempt Please Try After 24 hours."
+        }
+    },
+    "supportLogOut": {
+        "200": {
+            "0": "Successfully Logged Out."
+        },
+        "204": {
+            "0": "User not found."
+        }
+    },
+    "supportFAQ": {
+        "200": {
+            "0": "Got The  Details."
+        }
+    },
+    "fare": {
+        "200": {
+            "0": "Got The  Details."
+        },
+        "400": {
+            "0": "The order type you chosen was unable to process by the store."
+        }
+    },
+    "supportCancelReason": {
+        "200": {
+            "0": "Got The  Details."
+        }
+    },
+    "supportAccessToken": {
+        "200": {
+            "0": "Got The  Details."
+        },
+        "404": {
+            "0": "Data not found."
+        }
+    },
+    "supportReview": {
+        "200": {
+            "0": "Got The  Details."
+        },
+        "404": {
+            "0": "Data not found."
+        }
+    },
+    "supportGetReview": {
+        "200": {
+            "0": "Got The  Details."
+        },
+        "404": {
+            "0": "Review not found."
+        }
+    },
+    "supportPhone": {
+        "200": {
+            "0": "Update Successfully."
+        },
+        "404": {
+            "0": "User not found."
+        }
+    },
+    "addAddress": {
+        "200": {
+            "0": "Address Added Successfully."
+        }
+    },
+    "editAddress": {
+        "200": {
+            "0": "Address Updated Successfully."
+        }
+    },
+    "getAddress": {
+        "200": {
+            "0": "Got The Details."
+        }
+    },
+    "removeAddress": {
+        "200": {
+            "0": "Address Deleted Successfully."
+        }
+    },
+    "referalCode": {
+        "400": {
+            "0": "Invalid referral code"
+        },
+        "200": {
+            "0": "Referral code is valid"
+        }
+    },
+    "disLogin": {
+        "200": {
+            "0": "Login Successfully"
+        },
+        "401": {
+            "0": "Incorrect password, please try again."
+        },
+        "404": {
+            "0": "User Not found"
+        }
+    },
+    "disProvider": {
+        "200": {
+            "0": "Got Provider List"
+        }
+    },
+    "createBooking": {
+        "200": {
+            "0": "Booking Create Successfully"
+        }
+    },
+    "ackBooking": {
+        "200": {
+            "0": "Booking Update Successfully"
+        },
+        "404": {
+            "0": "Booking Not found"
+        }
+    },
+    "responseBooking": {
+        "200": {
+            "0": "Booking Update Successfully"
+        },
+        "404": {
+            "0": "Booking Not found"
+        }
+    },
+    "statusBooking": {
+        "200": {
+            "0": "Booking Update Successfully"
+        },
+        "404": {
+            "0": "Booking Not found"
+        },
+        "400": {
+            "0": "Booking status not update"
+        }
+    },
+    "getMasterBooking": {
+        "200": {
+            "0": "Get All Booking Details"
+        }
+    },
+    "historyMasterBooking": {
+        "200": {
+            "0": "Get All Booking Details"
+        }
+    },
+    "getSlaveBooking": {
+        "200": {
+            "0": "Get All Booking Details"
+        }
+    },
+    "getSlaveOneBooking": {
+        "200": {
+            "0": "Get All Booking Details"
+        },
+        "404": {
+            "0": "Booking Not found"
+        }
+    },
+    "cancelBookingSlave": {
+        "200": {
+            "0": " Booking Cancel Successfully"
+        },
+        "404": {
+            "0": "Booking Not found"
+        }
+    },
+    "cancelBookingMaster": {
+        "200": {
+            "0": " Booking Cancel Successfully"
+        },
+        "404": {
+            "0": "Booking Not found"
+        }
+    },
+    "timerBooking": {
+        "200": {
+            "0": {
+                "0": "Timer is stop",
+                "0": "Timer is start"
+            }
+        },
+        "400": {
+            "0": {
+                "0": "Timer is already stop",
+                "0": "Timer is already start"
+            }
+        },
+        "404": {
+            "0": "Booking Not found"
+        }
+    },
+    "stripeAddCard": {
+        "404": {
+            "0": "User Not Found"
+        },
+        "200": {
+            "0": "Added Successfully."
+        }
+    },
+    "stripeGetCard": {
+        "404": {
+            "0": "User Not Found"
+        },
+        "200": {
+            "0": "Added Successfully."
+        }
+    },
+    "stripeDeleteCard": {
+        "404": {
+            "0": "User Not Found"
+        },
+        "402": {
+            "0": "Card Not Found"
+        },
+        "200": {
+            "0": "Get card details."
+        }
+    },
+    "stripeDefualtCard": {
+        "404": {
+            "0": "User Not Found"
+        },
+        "200": {
+            "0": "Get card details."
+        }
+    },
+    "stripeAddBank": {
+        "404": {
+            "0": "User Not Found"
+        },
+        "200": {
+            "0": "Added Successfully."
+        }
+    },
+    "stripeGetBank": {
+        "404": {
+            "0": "User Not Found"
+        },
+        "200": {
+            "0": "Added Successfully."
+        }
+    },
+    "stripeDeleteBank": {
+        "400": {
+            "0": "Cannot delete default account. Please make another account default & then delete this account."
+        },
+        "404": {
+            "0": "No such account"
+        },
+        "200": {
+            "0": "Delete Bank details."
+        }
+    },
+    "stripeDefualtBank": {
+        "400": {
+            "0": "Cannot delete default account. Please make another account default & then delete this account."
+        },
+        "404": {
+            "0": "No such account"
+        },
+        "200": {
+            "0": "Delete Bank details."
+        }
+    },
+    "checkOperationZone": {
+        "400": {
+            "0": "Sorry , we do not deliver to your selected address at this moment as it’s out of delivery reach."
+        },
+        "404": {
+            "0": "No such account"
+        },
+        "200": {
+            "0": "In operational zone."
+        }
+    },
+    "getData": {
+        "200": {
+            "0": "Got The Details."
+        },
+        "404": {
+            "0": "Data not found"
+        }
+    },
+    "appVersions": {
+        "200": {
+            "0": "Got The Details."
+        },
+        "400": {
+            "0": "Please update your app to the latest version."
+        },
+        "404": {
+            "0": "Data not found"
+        }
+    },
+    "appVersionAlreadyExist": {
+        "400": {
+            "0": "App version with this type already exists, please select a new type."
+        }
+    },
+    "stores": {
+        "200": {
+            "0": "Got The Details."
+        },
+        "201": {
+            "0": "Success"
+        },
+        "404": {
+            "0": "Data not found"
+        }
+    },
+    "orders": {
+        "200": {
+            "0": "Order placed successfully."
+        },
+        "404": {
+            "0": "Order not found"
+        },
+        "402": {
+            "0": "Cart shouldn't be empty"
+        },
+        "400": {
+            "0": "driver not found"
+        },
+        "301": {
+            "0": "Booking is already completed."
+        },
+        "302": {
+            "0": "Booking status Updated already.."
+        },
+        "303": {
+            "0": "Booking Expired or Accepted By another"
+        },
+        "201": {
+            "0": "Passenger has cancelled Booking."
+        }
+    },
+    "bookings": {
+        "200": {
+            "0": "Updated successfully."
+        },
+        "404": {
+            "0": "Bookings not found on selected date"
+        },
+        "403": {
+            "0": "Order already cancelled"
+        },
+        "400": {
+            "0": "driver not found"
+        },
+        "301": {
+            "0": "Booking is already completed."
+        },
+        "302": {
+            "0": "Booking status Updated already.."
+        },
+        "303": {
+            "0": "Booking Expired or Accepted By another"
+        },
+        "201": {
+            "0": "Booking cancelled."
+        }
+    },
+    "assignedOrders": {
+        "200": {
+            "0": "Updated successfully."
+        }
+    },
+    "cart": {
+        "200": {
+            "0": "Got the details."
+        },
+        "201": {
+            "0": "Added Successfully to cart."
+        },
+        "202": {
+            "0": "Removed Successfully from cart."
+        },
+        "203": {
+            "0": "Updated Successfully to cart."
+        },
+        "404": {
+            "0": "Data not found"
+        },
+        "412": {
+            "0": "Item already in cart."
+        }
+    },
+    "checkout": {
+        "200": {
+            "0": "Got the details."
+        },
+        "201": {
+            "0": "Added Successfully to cart."
+        },
+        "202": {
+            "0": "Removed Successfully from cart."
+        },
+        "203": {
+            "0": "Some of the items are modified inside the cart."
+        },
+        "404": {
+            "0": "Data not found"
+        },
+        "412": {
+            "0": "Item already in cart."
+        }
+    },
+    "shoppingList": {
+        "200": {
+            "0": "Got the details."
+        },
+        "201": {
+            "0": "Added Successfully to shoppingList."
+        },
+        "202": {
+            "0": "Removed Successfully from shoppingList."
+        },
+        "203": {
+            "0": "Updated Successfully to shoppingList."
+        },
+        "404": {
+            "0": "Data not found"
+        },
+        "412": {
+            "0": "Item already in shoppingList."
+        }
+    },
+    "wishList": {
+        "200": {
+            "0": "Got the details."
+        },
+        "201": {
+            "0": "Added Successfully to wishList."
+        },
+        "202": {
+            "0": "Removed Successfully from wishList."
+        },
+        "203": {
+            "0": "Updated Successfully."
+        },
+        "404": {
+            "0": "Data not found"
+        },
+        "412": {
+            "0": "Item already in wishList."
+        }
+    },
+    "PostProduct": {
+        "201": {
+            "0": "Product Added successfully."
+        }
+    },
+    "GetProduct": {
+        "200": {
+            "0": "Product found successfully."
+        },
+        "412": {
+            "0": "Product doesnot exist."
+        }
+    },
+    "vehicles": {
+        "404": {
+            "0": "Vehicle Not Found"
+        },
+        "400": {
+            "0": "Vehicle type Not Found"
+        },
+        "401": {
+            "0": "Vehicle type Not Found"
+        },
+        "200": {
+            "0": "Added Successfully."
+        }
+    },
+    "verifyId": {
+        "402": {
+            "0": "Your MMJ card is unverified."
+        },
+        "401": {
+            "0": "Your Identity card is unverified."
+        }
+    },
+    "customer": {
+        "200": {
+            "0": "Success"
+        },
+        "404": {
+            "0": "Data not found"
+        }
+    },
+    "promoCampaigns": {
+        "200": {
+            "0": "Success"
+        },
+        "404": {
+            "0": "Data not found"
+        },
+        "401": {
+            "0": "No details found"
+        }
+    },
+    "driverList": {
+        "200": {
+            "0": "Successfully.."
+        },
+        "400": {
+            "0": "Bad Request."
+        }
+    },
+    "products": {
+        "200": {
+            "0": "Successfully.."
+        },
+        "400": {
+            "0": "Bad Request."
+        },
+        "404": {
+            "0": "Product Not found"
+        }
+    },
+    "store": {
+        "200": {
+            "0": "Success"
+        },
+        "400": {
+            "0": "Bad Request."
+        },
+        "404": {
+            "0": "Product Not found"
+        }
+    }
+}

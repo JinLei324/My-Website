@@ -1,0 +1,5 @@
+{
+    "API_URL":"localhost:7860",
+    "MAILGUN_FROM_NAME":"Loopz <support@Loopz.com>",
+    "REDIS_EVENT_API_CALL":"http://localhost:7002/redisEvent"
+}

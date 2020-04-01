@@ -1,0 +1,6 @@
+{
+    "port":7007,
+	"bicketName":"mandobi",
+    "MEDIA_PATH": "/var/www/html/imageUpload/public/uploads",
+    "VIEW_DIR": "/var/www/html/imageUpload/views/"
+}

@@ -1,0 +1,11 @@
+{
+	"getData": "getData",
+	"wishList": "wishList",
+	"stores": "stores",
+	"genericErrMsg": "genericErrMsg",
+	"stripeConnectAccountGet": "stripeConnectAccountGet",
+	"store": "store",
+	"cart": "cart",
+	"guestRegisterUser": "guestRegisterUser",
+	"promoCampaigns": "promoCampaigns"
+}

@@ -1,0 +1,12 @@
+{
+    "emails": {
+        "baseUrl": "/var/www/html/GROCER-NODE-APP-API/grocer-server",
+        "fromName": "Grocer",
+        "fromEmail": "noReply@grocer.mobi"
+    },
+    "mailgun":{
+    	"api_key": "key-fdf665bbe4dc0ba130613c95a14ef7b2",
+        "domain": "mg.ideliver.mobi"
+        
+    }
+}

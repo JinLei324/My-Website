@@ -1,0 +1,107 @@
+<?php
+
+$lang['dashboard']='لوحة المراقبة';
+$lang['paymentgateway']='بوابة الدفع الالكتروني';
+$lang['taxsetup']='اعدادات الضريبة';
+$lang['citysetup']='اعدادت المدينة';
+$lang['cities']='المدن';
+$lang['zones']='المناطق';
+$lang['AUTHORISED_USERS']='المستخدمين المصرح لهم';
+$lang['appsetting']='اعدادات التطبيق';
+$lang['appconfiguration']='اعدادت التطبيق';
+$lang['language']='اللغة';
+$lang['versions']='الاصدارات';
+$lang['productsetup']='اعدادت البظاعة ';
+$lang['productcategories']='فئات البظاعة';
+$lang['storeproductcategories']='فئات بظاعة المتجر';
+$lang['franchiseproductcategories']='فئات بظاعة الاسم التجاري';
+$lang['colors']='الالوان';
+$lang['sizegroups']='القياس-المجموعة';
+$lang['brands']='العلامة التجارية';
+$lang['manufacturer']='المصنع';
+$lang['SYMPTOM']='العلامة';
+$lang['addongroup']='اضف الى المجموعة ';
+$lang['centraladdon']='الاضافات المركزية';
+$lang['storeaddon']='اضافات المتجر';
+$lang['products']='المنتوجات';
+$lang['centralproducts']='المنتوجات المركزية';
+$lang['storeproducts']='منتوجات المتجر';
+$lang['gridproducts']='شبكة المنتوجات';
+$lang['storesetup']='اعدادت المتجر';
+$lang['storecategories']='فئات المتجر';
+$lang['stores']='المتاجر';
+$lang['storecommission']='نسبة المتجر';
+$lang['storemanager']='مديري المتجر';
+$lang['storedriver']='سواق المتجر';
+$lang['franchisesetup']='اعدادات الاسم التجاري';
+$lang['franchise']='الاسم التجاري';
+$lang['franchisecommission']='نسبة الاسم التجاري';
+$lang['franchisemanager']='مدير الاسم التجاري';
+$lang['customers']='العملاء';
+$lang['driverplans']='تقسيم السائقين';
+$lang['drivers']='السائقين';
+$lang['driveracceptancerate']='نسبة قبول السائقين';
+$lang['estimate']='التقديرات';
+$lang['carts']='العربات';
+$lang['sendnotification']='ارسال التنبيهات';
+$lang['orders']='الطلبات';
+$lang['dispatch']='الارسال';
+$lang['allorders']='جميع الطلبات';
+$lang['offers']='العروض';
+$lang['productoffers']='عروض المنتوجات';
+$lang['financials']='المالية';
+$lang['accounting']='المحاسبة';
+$lang['accountstatement']='كشف الحساب';
+$lang['driver']='السائق';
+$lang['customer']='العميل';
+$lang['store']='المتجر';
+$lang['app']='التطبيق';
+$lang['pg']='PG';
+$lang['payroll']='كشف الرواتب';
+$lang['stripepayoutlogs']='شريط سجلات دفع التعويضات ';
+$lang['stripetxnlogs']='شريط سجلات التحويلات';
+$lang['STRIPE_LOGS']='شريط السجلات';
+$lang['PAYOFF']='تسديد الديون';
+$lang['VOUCHERS']='قسايم الشراء';
+$lang['MANAGE_ACCESS']='ادارة الدخول';
+$lang['ALL_USERS']='مستعملي الارسال';
+$lang['packagebox']='صندوق التعئبة';
+
+
+$lang['marketing']='التسويق';
+$lang['loyaltyprogram']='نظام ال ولاء';
+$lang['referalcampaign']='حملة الاحالة';
+$lang['promocodes']='كود الخصم';
+$lang['logs']='السجلات';
+$lang['campaignqualifiedtriplogs']='حملة سجلات الرحلات المؤهلة';
+$lang['promocodelogs']='سجلات كود الخصم';
+$lang['inputtriplogs']='ادخال سجل الرحلات';
+$lang['ratings']='التقييمات';
+$lang['parameters']='الاعدادات';
+$lang['driverrating']='تقييم السائق';
+$lang['customerrating']='تقييم العميل';
+$lang['storerating']='تقييم المتجر';
+$lang['mailsmslogs']='سجل الايمايلات و الرسائل النصية';
+$lang['sms']='الرسائل النصية';
+$lang['email']='الايميلات';
+$lang['adminusers']='مشرفي الاستعمال';
+$lang['appcontent']='محتوى التطبيق';
+$lang['faq']='الاسئلة الشائعة';
+$lang['customer']='العميل';
+$lang['driver']='السائق';
+$lang['store']='المتجر';
+$lang['helptext']='نص المساعدة';
+$lang['cancellation']='الالغاء';
+$lang['reasons']='الاسباب';
+$lang['termsandcondition']='الشروط و الاحكام';
+$lang['privacypolicy']='سياسة الخصوصية';
+$lang['statusReason']='اسباب الحالة';
+
+$lang['vehicles']='المركبة';
+$lang['vehicle_types']='نوع المركبة';
+$lang['vehicles']='المركبة';
+$lang['vehiclesmodels']='موديل المركبة';
+
+
+
+?>

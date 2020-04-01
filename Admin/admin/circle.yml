@@ -1,0 +1,11 @@
+test:
+  override:
+    - echo 'just for testing'.
+
+deployment:
+    production:
+      branch: GrocerAdmin2.0_Pramod_Dev
+      commands:
+          - sudo apt-get install sshpass
+          - chmod +x ./deploy_prod.sh
+          - ./deploy_prod.sh

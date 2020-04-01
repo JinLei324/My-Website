@@ -1,0 +1,420 @@
+{
+    "langaugeId": "en",
+    "genericErrMsg": {
+        "200": {
+            "en": "Success."
+        },
+        "500": {
+            "en": "Internal server error."
+        },
+        "501": {
+            "en": "Implement  error."
+        },
+        "440": {
+            "en": "Token Expire."
+        },
+        "498": {
+            "en": "Invalid Token."
+        }
+    },
+    "bookingStatusMsg": {
+        "1": {
+            "en": "Booking requested."
+        },
+        "2": {
+            "en": "Driver accepted."
+        },
+        "3": {
+            "en": "You cancelled."
+        },
+        "4": {
+            "en": "Driver cancelled."
+        },
+        "6": {
+            "en": "Driver enroute to store."
+        },
+        "7": {
+            "en": "Driver is at the store."
+        },
+        "8": {
+            "en": "Driver accepted"
+        },
+        "9": {
+            "en": "Booking requested"
+        },
+        "10": {
+            "en": "on the way ."
+        },
+        "11": {
+            "en": "Arrived."
+        },
+        "12": {
+            "en": "Delivery started"
+        },
+        "13": {
+            "en": "reached at location"
+        },
+        "14":{
+            "en":"completed "
+        },
+        "15":{
+            "en":"submit"
+        },
+        "16": {
+            "en": "Driver has unloded the load."
+        }
+    },
+    "postPhoneValidation": {
+        "200": {
+            "en": "Got The Details."
+        },
+        "412": {
+            "en": "This Phone number is already registered with us"
+        },
+        "406": {
+            "en": "Phone Number is Not valid"
+        },
+        "400": {
+            "en": "Bad Request"
+        }
+    },
+    "getAppConfig": {
+        "200": {
+            "en": "success"
+        },
+        "402": {
+            "en": "Invalid Device Type"
+        },
+        "404": {
+            "en": "account not found"
+        }
+    },
+    "postEmailValidation": {
+        "200": {
+            "en": "Got The Details."
+        },
+        "412": {
+            "en": "This Email address is already registered with us"
+        }
+    },
+    "getZoneErrMsg": {
+        "200": {
+            "en": "Got The Details."
+        },
+        "404": {
+            "en": "No-city found"
+        }
+    },
+    "postSignIn": {
+        "200": {
+            "en": "Login Successful."
+        },
+        "400": {
+            "en": "Phone Number or Email is Wrong."
+        },
+        "401": {
+            "en": "Incorrect Password."
+        },
+        "409": {
+            "en": "One of our representatives will get in touch with you in the next 24 hours to setup your profile and get all the necessary documents."
+        },
+        "410": {
+            "en": "Your profile got rejected by our admin, please contact our support for further queries."
+        },
+        "411": {
+            "en": "Your account has been banned by admin"
+        }
+    },
+    "postLogout": {
+        "200": {
+            "en": "Logout Successful."
+        }
+    },
+    "getProfile": {
+        "200": {
+            "en": "Got The Details."
+        },
+        "404": {
+            "en": "No  found"
+        }
+    },
+    "postProfile": {
+        "200": {
+            "en": "Got The Details."
+        },
+        "401": {
+           "en": "Email  is already registered"
+        },
+        "402": {
+            "en": "Phone  is already registered"
+        },
+        "403": {
+            "en": "Please check Input Fileds"
+        },
+        "404": {
+            "en": "profile Not found."
+        }
+    },
+    "postStatus": {
+        "200": {
+            "en": "success."
+        }
+    },
+    "postSignUp": {
+        "200": {
+            "en": "user created successfully."
+        },
+        "412": {
+            "en": "This Email address is already registered with us"
+        },
+        "413": {
+            "en": "This Phone number is already registered with us"
+        }
+    },
+    "getVehicleTypeAndSpecialities": {
+        "200": {
+            "en": "Got The Details."
+        }
+    },
+    "getMakeModel": {
+        "200": {
+            "en": "Got The Details."
+        }
+    },
+    "getOperators": {
+        "200": {
+           "en": "Got The Details."
+        }
+    },
+    "getCity": {
+        "200": {
+            "en": "Got The Details."
+        }
+    },
+    "postVehicleDefault": {
+        "200": {
+            "en": "sucess"
+        },
+        "401": {
+            "en": "Vehicle is not available."
+        },
+        "404": {
+            "en": "Vehicle not found."
+        }
+    },
+    "getSupport": {
+        "200": {
+            "en": "Got The Details."
+        }
+    },
+    "deleteStripe": {
+        "400": {
+            "en": "Cannot delete default account. Please make another account default & then delete this account."
+        },
+        "404": {
+            "en": "No such account"
+        },
+        "200": {
+            "en": "Delete Bank details."
+        }
+    },
+    "getStripe": {
+        "404": {
+            "en": "User Not Found"
+        },
+        "200": {
+            "en": "Added Successfully."
+        },
+        "401": {
+            "en": "No stripe account, please create a new stripe account."
+        }
+    },
+    "postStripe": {
+        "404": {
+            "en": "not-found"
+        },
+        "200": {
+            "en": "Added Successfully.."
+        }
+    },
+    "postStripeBank": {
+        "404": {
+            "en": "not-found"
+        },
+        "200": {
+            "en": "Added Successfully.."
+        }
+    },
+    "postStripeDefault": {
+        "400": {
+            "en": "Please make another account default & then delete this account."
+        },
+        "404": {
+            "en": "No such account"
+        },
+        "200": {
+            "en": " Bank defualt."
+        }
+    },
+    "postReferralCodeValidation": {
+        "400": {
+            "en": "Invalid referral code"
+        },
+        "401": {
+            "en": "We are not operating in this city"
+        },
+        "200": {
+            "en": "Referral code is valid"
+        }
+    },
+    "getReviewAndRating": {
+        "200": {
+            "en": "Got The  Details."
+        },
+        "404": {
+            "en": "Review not found."
+        }
+    },
+    "postReviewAndRating": {
+        "200": {
+            "en": "Got The  Details."
+        },
+        "404": {
+            "en": "Data not found."
+        }
+    },
+    "getCancellationReasonCourier": {
+        "200": {
+            "en": "got the details."
+        }
+    },
+    "getCancellationReasonRide": {
+        "200": {
+            "en": "got the details."
+        }
+    },
+    "postForgotPassword": {
+        "200": {
+            "en": "Verification link sent to your email"
+        },
+        "201": {
+            "en": "Verification code from Uberforall"
+        },
+        "202": {
+            "en": "Verification Code has been sent to your registered Mobile Number"
+        },
+        "400": {
+            "en": "Bad Request"
+        },
+        "404": {
+            "en": "Not found"
+        },
+        "406": {
+            "en": "Phone Number is Not valid"
+        },
+        "409": {
+            "en": "Email is Not valid"
+        },
+        "429": {
+            "en": "Too Many Attempt Please Try After 6 hours."
+        }
+    },
+    "postOtp": {
+        "200": {
+            "en": "Verification Code has been sent to your registered Mobile Number"
+        },
+        "201": {
+            "en": "Verification code from uberforall"
+        }
+    },
+    "getAssignedBooking": {
+        "200": {
+            "en": "Success"
+        }
+    },
+    "getPastBooking": {
+        "200": {
+            "en": "success"
+        }
+    },
+    "postVerifyVerificationCode": {
+        "200": {
+            "en": "Success"
+        },
+        "401": {
+            "en": "driver not found"
+        },
+        "402": {
+            "en": "Verification code is wrong."
+        }
+    },
+    "postLocation": {
+        "200": {
+            "en": "Success"
+        }
+    },
+    "postLocationLogs": {
+        "200": {
+            "en": "Success"
+        }
+    },
+    "postBookingAck": {
+        "200": {
+            "en": "Success"
+        },
+        "400": {
+            "en": "Booking has been expired."
+        },
+        "404": {
+            "en": "Booking Not Found."
+        }
+    },
+    "postRespondTo": {
+        "200": {
+            "en": "Success"
+        },
+        "400": {
+            "en": "Booking has been cancelled or accepted by other driver."
+        },
+        "404": {
+            "en": "Booking Not Found."
+        },
+        "405": {
+            "en": "Driver Data Not Found."
+        },
+        "406": {
+            "en": "Booking Respond Status Not Found."
+        },
+        "407": {
+            "en": "Vehicle Data Status Not Found."
+        }
+    },
+    "postStatusRide": {
+        "200": {
+            "en": "Success"
+        },
+        "400": {
+            "en": "Invalid Status can't update."
+        },
+        "401": {
+            "en": "Invalid Location."
+        },
+        "402": {
+            "en": "Unable to calculate distance."
+        },
+        "404": {
+            "en": "Booking has been cancelled or completed."
+        }
+    },
+    "apiDescription": {
+        "getReferralCode": "This API ensures that a referal code is used only once by one user",
+        "getReviewAndRating": "This API is get all the review and rating.",
+        "postReviewAndRating": "This API is  for the user to add review and rating perticuler booking.",
+        "postForgotPassword": "This API allows the user to reset the password. The user may mention his email ID or Phone Number in order to verify the account. In case of an email ID a link is sent to the email ID, in case of a mobile number a verification code is sent.",
+        "postVerifyVerificationCode": "This API is used to verify the Verification code which the user receives from Twilio",
+        "postOtp": "This API to send otp while user forgot password",
+        "postLocation": "update location",
+        "postLocationLogs": "postLocationLogs",
+        "postVehicleDefault": "postVehicleDefault"
+    }
+}
