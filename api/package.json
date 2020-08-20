@@ -16,7 +16,7 @@
   "dependencies": {
     "amqplib": "^0.5.2",
     "aws-sdk": "^2.268.1",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "cheerio": "^1.0.0-rc.2",
     "cluster": "^0.7.7",
     "crypto": "^1.0.1",
