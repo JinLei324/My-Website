@@ -33,7 +33,7 @@
     "good-console": "6.4.0",
     "google-distance": "^1.0.1",
     "google-distance-matrix": "^1.1.1",
-    "googleapis": "^23.0.0",
+    "googleapis": "^39.1.0",
     "hapi": "16.6.2",
     "hapi-auth-basic": "^4.2.0",
     "hapi-auth-jwt2": "^7.3.0",
