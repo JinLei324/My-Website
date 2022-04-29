@@ -9,7 +9,7 @@
   "author": "3embed",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.6.0",
+    "async": "^2.6.4",
     "aws-sdk": "^2.268.1",
     "body-parser": "~1.14.2",
     "busboy": "^0.2.14",
